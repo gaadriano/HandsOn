@@ -1,0 +1,145 @@
+
+body {
+    font-family: Helvetica;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid #666;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+ul li a:hover {
+    color: #D71C23;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+img {
+    border: none;
+    height: 150px;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}
+
+#cursoGeral{
+    display: flex;
+    padding: 20px 60px 20px 60px;
+}
+
+#curso, #curso2{
+    width: 50px;
+    padding: 60px;
+    color: #000;
+    background-color: #fff;
+    flex-grow: 1;
+    border-radius: 100%;
+    font-size: 14px;
+}
+
+#curso2 {
+    margin-left: 50px;
+}
+
+#identidadeSite{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 30px;
+    border: none;
+    margin-right: 20px;   
+}
+
+#cursoGeral #curso a, #cursoGeral #curso2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+#cursoGeral #curso a:hover, #cursoGeral #curso2 a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D71C23;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#espacoTabela{
+    padding: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+table{
+    width: 600px;
+    background-color: #d1e7dd;
+    color: #000;
+    border-radius: 5px;
+}
+
+td{
+    padding: 20px;
+}
+
+th{
+    padding: 20px;
+    background-color: #c7dbd2;
+    color: #000;
+    font-weight: bolder;
+}
+
+#espacoTexto{
+    color: #fff;
+    padding: 40px 200px 20px 200px;
+    text-align: justify !important;
+}
+
+#espacoTexto ul {
+    font-style: italic;
+}
+
+#sobreMim{
+    font-size: 14px;
+}
+
+blockquote{
+    font-style: italic;
+}
